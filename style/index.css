@@ -1,0 +1,46 @@
+/* header item */
+
+.f-img{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+li{
+
+   list-style: none;
+   
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.nav-link-2{
+   display: flex;
+   /* gap: 30px; */
+   margin-right: 100px;
+   
+}
+
+.nav-link{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-item-1{
+   display: flex;
+   justify-content: space-around;
+    
+}
+
+/* media query */
+
+@media  screen and (max-widht:576px)  {
+
+   .f-img{
+      margin-left: 500px;
+   }
+   
+}

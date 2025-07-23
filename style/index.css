@@ -54,12 +54,51 @@ a{
 .cart-item-1{
    font-weight: bold;
 }
+/* end header item */
+
+
+/* start main item */
+.main-part-1{
+   font-size: 50px;
+   text-align: center;
+}
+
+.main-part-2{
+   font-size: 22px;
+   color: #5e5c5c;
+   text-align: center;
+}
+
+.card-8{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+   
+}
+.card-1{
+    margin: auto ; 
+    
+   
+}
+.detail-1{
+   text-align: center;
+}
+.detail-2{
+   text-align: center;
+}
+.button-1{
+   margin-left: 84px;
+}
+
+
+
+
 /* media query */
 
 @media  screen and (max-width:576px)  {
 
 
-
+/* header part */
    
    .nav-link{
       flex-direction: row;
@@ -98,6 +137,8 @@ a{
    margin-left: 100px;
   
 }
+
+/* end header part */
 
 
 }

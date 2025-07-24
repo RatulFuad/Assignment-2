@@ -124,7 +124,7 @@ a{
 .challenge-img{
    width: 540px;
    height: 597px;
-   margin-left: 300px;
+   margin-left: 185px;
    margin-top: -100px; 
    
 }
@@ -141,7 +141,8 @@ a{
 .font-10{
    font-size: 50px;
    font-weight: bold;
-   padding-left: 20px;
+   padding-left: 20px; 
+   
 }
 
 .challenge-part-2{
@@ -156,6 +157,11 @@ a{
    right: 900px;
    position: absolute;
    
+}
+
+.desktop-only,
+.mobile-only {
+  display: none;
 }
 
 
@@ -235,6 +241,55 @@ a{
 .button-1{
    padding-right: 90px;
 }
+
+
+
+
+.challenge-part {
+    flex-direction: column;
+   padding: 5px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+   .challenge-img img {
+    margin-top: 120px;
+    max-width: 100%;
+   width: 358px;
+    height: 396; 
+    display: block;
+   max-width: 100%; 
+   box-sizing: border-box;
+
+
+}
+
+.challenge-part-2{
+   margin-left: 200px;
+   margin: auto;
+   text-align: start;
+   
+}
+
+.font-10{
+white-space: nowrap;
+font-size: 30px;
+font-weight: bold;
+}
+
+.fota{
+       white-space: nowrap; 
+
+   text-align: left;
+   padding-right: 30px;
+   font-size: 18px;
+   
+  } 
+.mobile-only {
+    display: block;
+  }
+
+
    
     
    
@@ -244,6 +299,18 @@ a{
 
 
 
+
+
+@media  screen and (min-width:1200px)  {
+
+   .challenge-part{
+      margin-left: 140px;
+   }
+   .desktop-only {
+    display: block;
+  }
+   
+}
 
 
 

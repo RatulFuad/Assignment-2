@@ -562,6 +562,7 @@ font-weight: bold;
    flex-direction: column;
    margin-left: 20px;
    margin-bottom: 50px;
+   overflow-x: hidden;
   }
 
   .link-1{
